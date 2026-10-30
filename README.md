@@ -178,8 +178,8 @@ go build -o reality-scout
 
 - [Country.mmdb](https://github.com/Loyalsoldier/geoip/releases/latest/download/Country.mmdb)
 - [gfwlist.conf](https://raw.githubusercontent.com/Loyalsoldier/clash-rules/release/gfw.txt)
-- [cdn_keywords.txt](https://raw.githubusercontent.com/bobvhfhh/RealityScout/main/data/cdn_keywords.txt)
-- [hot_websites.txt](https://raw.githubusercontent.com/bobvhfhh/RealityScout/main/data/hot_websites.txt)
+- [cdn_keywords.txt](https://raw.githubusercontent.com/V2RaySSR/RealityChecker/main/data/cdn_keywords.txt)
+- [hot_websites.txt](https://raw.githubusercontent.com/V2RaySSR/RealityChecker/main/data/hot_websites.txt)
 
 
 ## 🏆 致谢

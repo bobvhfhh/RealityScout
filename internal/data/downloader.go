@@ -46,12 +46,12 @@ func (d *Downloader) EnsureDataFiles() error {
 	files := []DataFile{
 		{
 			Name:      "cdn_keywords.txt",
-			URL:       "https://raw.githubusercontent.com/bobvhfhh/RealityScout/main/data/cdn_keywords.txt",
+			URL:       "https://raw.githubusercontent.com/V2RaySSR/RealityChecker/main/data/cdn_keywords.txt",
 			LocalPath: "data/cdn_keywords.txt",
 		},
 		{
 			Name:      "hot_websites.txt",
-			URL:       "https://raw.githubusercontent.com/bobvhfhh/RealityScout/main/data/hot_websites.txt",
+			URL:       "https://raw.githubusercontent.com/V2RaySSR/RealityChecker/main/data/hot_websites.txt",
 			LocalPath: "data/hot_websites.txt",
 		},
 		{
@@ -207,8 +207,8 @@ func (d *Downloader) showManualDownloadInstructions() {
 	fmt.Println("程序终止：缺少必要的数据文件")
 	fmt.Println()
 	fmt.Println("请手动下载以下文件到 data/ 目录：")
-	fmt.Println("1. cdn_keywords.txt: https://raw.githubusercontent.com/bobvhfhh/RealityScout/main/data/cdn_keywords.txt")
-	fmt.Println("2. hot_websites.txt: https://raw.githubusercontent.com/bobvhfhh/RealityScout/main/data/hot_websites.txt")
+	fmt.Println("1. cdn_keywords.txt: https://raw.githubusercontent.com/V2RaySSR/RealityChecker/main/data/cdn_keywords.txt")
+	fmt.Println("2. hot_websites.txt: https://raw.githubusercontent.com/V2RaySSR/RealityChecker/main/data/hot_websites.txt")
 	fmt.Println("3. gfwlist.conf: https://raw.githubusercontent.com/Loyalsoldier/clash-rules/release/gfw.txt")
 	fmt.Println("4. Country.mmdb: https://github.com/Loyalsoldier/geoip/releases/latest/download/Country.mmdb")
 	fmt.Println()
